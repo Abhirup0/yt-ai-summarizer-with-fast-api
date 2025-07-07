@@ -7,7 +7,7 @@ import os
 from typing import Dict, Any
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDcE35vpmIDZ3KoKbtVP3DQITGu0X9ktVQ")
+genai.configure(api_key="YOUR_API_KEY_HERE")
 model = genai.GenerativeModel('gemini-2.0-flash-exp')
 
 app = FastAPI()
